@@ -1,0 +1,59 @@
+/*fonts*/
+
+/*custom props*/
+:root {
+  --yellow: rgb(255, 244, 160);
+  --blue: rgb(94, 182, 253);
+  --orange: rgb(248, 190, 83);
+  --lightyellow: rgb(255, 255, 251);
+  --black: rgb(29, 29, 29);
+}
+
+/*resets*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: var(--orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#chart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 950px;
+  background: var(--lightyellow);
+  padding: 20px;
+  border: 0.2rem solid var(--black);
+  border-radius: 1rem;
+}
+
+.dot {
+  border-style: solid;
+}
+
+i {
+  padding: 0.5rem;
+}
+
+.tooltip {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-family: "Roboto", san-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.legend-text {
+  font-size: 0.8rem;
+}
